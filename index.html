@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.jpg">
+  <meta name="description" content="Miftah REST API - Your Ultimate Solution for Bot Whatsapp">
+  <meta name="keywords" content="Miftah, REST API, Web Rest API, Miftah GanzZ">
+  <meta name="author" content="Miftah GanzZ">
+    <title>Miftah API - Free Rest API With Various Interesting Features</title>
+    <link rel="stylesheet" href="assets/css/landing.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <main>
+      <!-- Header Start -->
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo"><a href="/">Miftah API</a></h2>
+
+          <ul class="menu_items">
+            <img src="/assets/images/times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#" class="nav_link">About</a></li>
+            <li><a href="#pricing" class="nav_link">Pricing</a></li>
+            <li><a href="https://github.com/miftahganzz" class="nav_link">Project</a></li>
+          </ul>
+          <img src="/assets/images/bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <!-- Header End -->
+
+      <!-- Hero Start -->
+      <section class="hero">
+        <div class="row container">
+          <div class="column">
+            <h2>Miftah API Interesting Features</h2>
+            <p>Miftah API provides free and attractive API features, available for bots, apps and websites.</p>
+            <div class="buttons">
+              <a href="/dashboard"><button class="btn">Get Started</button></a> 
+             <a href="https://wa.me/62851716069">
+              <button class="btn">Contact Us</button>
+             </a>
+            </div>
+          </div>
+          <div class="column">
+            <img src="/assets/images/hero.png" alt="heroImg" class="hero_img" />
+          </div>
+        </div>
+        <img src="/assets/images/bg-bottom-hero.png" alt="" class="curveImg" />
+      </section>
+      <!-- Hero End-->
+      <!-- Pricing Start -->
+     <section id="pricing">
+     <div class="container-price">
+    <h2 class="title">Unlock Premium <br> Apikey</h2>
+    <h3 class="price">IDR 10.000<span>/month</span></h3>
+    <p class="description">
+      - Premium Feature<br>
+      - Unlimited Limit<br>
+      - 1 Month Expired<br>
+      - Quick Help
+    </p>
+    <b class="offer">Come on, Buy Premium Now!</b>
+    <a class="subscribe-button" href="https://wa.me/6285171226069?text=Permisi+Min+Mau+Beli+Premium+Key+10k.">Buy Now</a>
+    <div class="ribbon-wrap">
+      <div class="ribbon">Special Offer!</div>
+    </div>
+  </div>
+ </section>
+  <!-- Pricing End -->
+    </main>
+
+    <script>
+      const header = document.querySelector("header");
+      const menuToggler = document.querySelectorAll("#menu_toggle");
+
+      menuToggler.forEach(toggler => {
+        toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
+      });
+    </script>
+  </body>
+</html>
